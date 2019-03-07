@@ -22,7 +22,7 @@
         return {
           model: null,
           options: [
-            'Google', 'Facebook', 'Twitter', 'Apple', 'Oracle'
+            '1º CFGS', '2º CFGS', 'CFGM', '1º E.S.O.', '2º E.S.O.'
           ],
           loading: true,
           columns: [
