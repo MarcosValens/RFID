@@ -62,7 +62,7 @@
 
       <q-separator/>
 
-      <q-card-actions class="flex-center">
+      <q-card-actions class="flex justify-end">
         <q-btn flat class="bg-primary text-white">Todos</q-btn>
         <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
       </q-card-actions>
@@ -127,7 +127,7 @@
 
       <q-separator/>
 
-      <q-card-actions class="flex-center">
+      <q-card-actions class="flex justify-end">
         <q-btn flat class="bg-primary text-white">Todos</q-btn>
         <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
       </q-card-actions>
@@ -192,7 +192,7 @@
 
       <q-separator/>
 
-      <q-card-actions class="flex-center">
+      <q-card-actions class="flex justify-end">
         <q-btn flat class="bg-primary text-white">Todos</q-btn>
         <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
       </q-card-actions>
@@ -257,7 +257,7 @@
 
       <q-separator/>
 
-      <q-card-actions class="flex-center">
+      <q-card-actions class="flex justify-end">
         <q-btn flat class="bg-primary text-white">Todos</q-btn>
         <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
       </q-card-actions>
@@ -322,7 +322,7 @@
 
       <q-separator/>
 
-      <q-card-actions class="flex-center">
+      <q-card-actions class="flex justify-end">
         <q-btn flat class="bg-primary text-white">Todos</q-btn>
         <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
       </q-card-actions>
@@ -387,7 +387,7 @@
 
       <q-separator/>
 
-      <q-card-actions class="flex-center">
+      <q-card-actions class="flex justify-end">
         <q-btn flat class="bg-primary text-white">Todos</q-btn>
         <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
       </q-card-actions>

@@ -1,8 +1,8 @@
 <template>
   <div class="q-pa-md">
-    <div class="no-wrap">
+    <div class="row no-wrap">
       <q-btn label="Actualizar" color="primary" @click="onRefresh" class="q-mb-md" />
-      <q-select rounded outlined class="q-mb-md col-4" v-model="model" :options="options" label="Grupo" padding/>
+      <q-select rounded outlined class="q-mb-md q-ml-md col-3" v-model="model" :options="options" label="Grupo" padding/>
     </div>
       <q-table
         title="Alumnos"
@@ -11,7 +11,7 @@
         row-key="name"
         :loading="loading"
         @click="generalUsuario"
-      />
+      ><q-td></q-td></q-table>
     </div>
 </template>
 

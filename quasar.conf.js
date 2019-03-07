@@ -58,11 +58,14 @@ module.exports = function (ctx) {
         'QTabPanels',
         'QTabPanel',
         'QImg',
-        'QCircularProgress'
+        'QCircularProgress',
+        'QDialog',
+        'QSpace'
       ],
 
       directives: [
-        'Ripple'
+        'Ripple',
+        'CloseDialog',
       ],
 
       // Quasar plugins
