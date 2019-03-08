@@ -40,15 +40,14 @@
             user: this.user,
             password: this.password,
           }, {
-            headers: { 'Content-type': 'aplication/x-www-form-urlencoded' }
           })
-          .then(response => {
+          /*.then(response => {
             if (response.data){
               this.$router.push('/general')
             } else {
               this.$q.notify({message:'Error de autentificación',color:'primary',position:'top'})
             }
-          });
+          });*/
         /*this.$axios.get('http://35.194.72.13/login_example.php?user='+this.user+'&password='+this.password).then(/!*function*!/ (response) => {
           console.log(response);
           let datos = response.data;
