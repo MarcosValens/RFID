@@ -27,7 +27,7 @@
     >
       <q-scroll-area class="fit">
         <q-list padding class="menu-list">
-          <q-item clickable active v-ripple @click="general">
+          <q-item clickable v-ripple to="/general">
             <q-item-section avatar>
               <q-icon name="format_list_bulleted"/>
             </q-item-section>
@@ -37,7 +37,7 @@
             </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple @click="validar">
+          <q-item clickable v-ripple to="/validar">
             <q-item-section avatar>
               <q-icon name="done_outline"/>
             </q-item-section>
@@ -47,7 +47,7 @@
             </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple @click="xml">
+          <q-item clickable v-ripple to="/upload">
             <q-item-section avatar>
               <q-icon name="cloud_upload"/>
             </q-item-section>
@@ -56,7 +56,7 @@
               XML
             </q-item-section>
           </q-item>
-          <q-item clickable v-ripple @click="asignar">
+          <q-item clickable v-ripple to="/asignar">
             <q-item-section avatar>
               <q-icon name="how_to_reg"/>
             </q-item-section>
@@ -88,7 +88,7 @@
     },
     methods: {
       openURL,
-      general: function () {
+      /*general: function () {
         this.$router.push('/general')
       },
       validar: function () {
@@ -99,7 +99,7 @@
       },
       asignar:function () {
         this.$router.push('/asignar')
-      }
+      }*/
     }
   }
 </script>
