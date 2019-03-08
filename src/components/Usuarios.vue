@@ -1,7 +1,7 @@
 <template>
   <div padding>
     <q-select rounded outlined v-model="model" :options="options" label="Grupo"/>
-    <q-btn class="bg-primary text-white q-my-md">Escanear</q-btn>
+    <q-btn class="bg-primary text-white q-my-md" aria-label="escanear">Escanear</q-btn>
     <q-table
       title="Usuarios"
       :data="data"
@@ -10,8 +10,8 @@
       selection="single"
       :selected.sync="selected"
     />
-    <q-btn class="bg-primary text-white q-ma-md">Guardar</q-btn>
-    <q-btn class="bg-primary text-white q-ma-md">Borrar</q-btn>
+    <q-btn class="bg-primary text-white q-ma-md" aria-label="guardar">Guardar</q-btn>
+    <q-btn class="bg-primary text-white q-ma-md" aria-label="borrar">Borrar</q-btn>
   </div>
 </template>
 
@@ -24,48 +24,48 @@
         model: null,
         data: [
           {
-            nombre: 'Frozen Yogurt',
+            nombre: 'Marcos Valens',
             numTarRFID: 159,
           },
           {
-            nombre: 'Ice cream sandwich',
+            nombre: 'Julien Gillet',
             numTarRFID: 237,
           },
           {
-            nombre: 'Eclair',
+            nombre: 'Pau Palou',
             numTarRFID: 262,
           },
           {
-            nombre: 'Cupcake',
+            nombre: 'Joan Cabot',
             numTarRFID: 305,
           },
           {
-            nombre: 'Gingerbread',
+            nombre: 'Tomeu Penya',
             numTarRFID: 356,
           },
           {
-            nombre: 'Jelly bean',
+            nombre: 'Xavier Torrens',
             numTarRFID: 375,
           },
           {
-            nombre: 'Lollipop',
+            nombre: 'Joan Galmes',
             numTarRFID: 392,
           },
           {
-            nombre: 'Honeycomb',
+            nombre: 'Pep Buades',
             numTarRFID: 408,
           },
           {
-            nombre: 'Donut',
+            nombre: 'Pere Negre',
             numTarRFID: 452,
           },
           {
-            nombre: 'KitKat',
+            nombre: 'Ana Escudero',
             numTarRFID: 518,
           }
         ],
         options: [
-          'Google', 'Facebook', 'Twitter', 'Apple', 'Oracle'
+          '1º CFGS', '2º CFGS', '1º A E.S.O.', 'Enfermeria', 'CFGB'
         ],
         columns: [
           {

@@ -1,6 +1,5 @@
 <template>
   <q-page class="q-pa-md row items-start q-gutter-md">
-
     <q-card flat bordered class="my-card">
       <q-card-section class="bg-primary">
         <div class="row items-center no-wrap">
@@ -9,7 +8,7 @@
           </div>
 
           <div class="col-auto">
-            <q-btn color="white" round flat icon="more_vert">
+            <q-btn color="white" round flat icon="more_vert" aria-label="submenu">
               <q-menu cover auto-close
                       transition-show="flip-right"
                       transition-hide="flip-left">
@@ -32,30 +31,29 @@
       </q-card-section>
 
       <q-card-section>
-        <q-space/>
         <q-list bordered separator class="q-mt-md bg-grey-1">
           <q-item>
             <q-item-section>
               Marcos Valens Fraile
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Julien Gillet
             </q-item-section>
-              <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-              <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Joan Cabot
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
         </q-list>
       </q-card-section>
@@ -63,8 +61,8 @@
       <q-separator/>
 
       <q-card-actions class="flex justify-end">
-        <q-btn flat class="bg-primary text-white">Todos</q-btn>
-        <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="todos">Todos</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="ninguno">Ninguno</q-btn>
       </q-card-actions>
     </q-card>
     <q-card flat bordered class="my-card">
@@ -75,7 +73,7 @@
           </div>
 
           <div class="col-auto">
-            <q-btn color="white" round flat icon="more_vert">
+            <q-btn color="white" round flat icon="more_vert" aria-label="submenu">
               <q-menu cover auto-close
                       transition-show="flip-right"
                       transition-hide="flip-left">
@@ -103,24 +101,24 @@
             <q-item-section>
               Marcos Valens Fraile
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Julien Gillet
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Joan Cabot
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
         </q-list>
       </q-card-section>
@@ -128,8 +126,8 @@
       <q-separator/>
 
       <q-card-actions class="flex justify-end">
-        <q-btn flat class="bg-primary text-white">Todos</q-btn>
-        <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="todos">Todos</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="ninguno">Ninguno</q-btn>
       </q-card-actions>
     </q-card>
     <q-card flat bordered class="my-card">
@@ -140,7 +138,7 @@
           </div>
 
           <div class="col-auto">
-            <q-btn color="white" round flat icon="more_vert">
+            <q-btn color="white" round flat icon="more_vert" aria-label="submenu">
               <q-menu cover auto-close
                       transition-show="flip-right"
                       transition-hide="flip-left">
@@ -168,24 +166,24 @@
             <q-item-section>
               Marcos Valens Fraile
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Julien Gillet
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Joan Cabot
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
         </q-list>
       </q-card-section>
@@ -193,8 +191,8 @@
       <q-separator/>
 
       <q-card-actions class="flex justify-end">
-        <q-btn flat class="bg-primary text-white">Todos</q-btn>
-        <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="todos">Todos</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="ninguno">Ninguno</q-btn>
       </q-card-actions>
     </q-card>
     <q-card flat bordered class="my-card">
@@ -205,7 +203,7 @@
           </div>
 
           <div class="col-auto">
-            <q-btn color="white" round flat icon="more_vert">
+            <q-btn color="white" round flat icon="more_vert" aria-label="submenu">
               <q-menu cover auto-close
                       transition-show="flip-right"
                       transition-hide="flip-left">
@@ -233,24 +231,24 @@
             <q-item-section>
               Marcos Valens Fraile
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Julien Gillet
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Joan Cabot
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
         </q-list>
       </q-card-section>
@@ -258,8 +256,8 @@
       <q-separator/>
 
       <q-card-actions class="flex justify-end">
-        <q-btn flat class="bg-primary text-white">Todos</q-btn>
-        <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="todos">Todos</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="ninguno">Ninguno</q-btn>
       </q-card-actions>
     </q-card>
     <q-card flat bordered class="my-card">
@@ -270,7 +268,7 @@
           </div>
 
           <div class="col-auto">
-            <q-btn color="white" round flat icon="more_vert">
+            <q-btn color="white" round flat icon="more_vert" aria-label="submenu">
               <q-menu cover auto-close
                       transition-show="flip-right"
                       transition-hide="flip-left">
@@ -298,24 +296,24 @@
             <q-item-section>
               Marcos Valens Fraile
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Julien Gillet
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Joan Cabot
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
         </q-list>
       </q-card-section>
@@ -323,8 +321,8 @@
       <q-separator/>
 
       <q-card-actions class="flex justify-end">
-        <q-btn flat class="bg-primary text-white">Todos</q-btn>
-        <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="todos">Todos</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="ninguno">Ninguno</q-btn>
       </q-card-actions>
     </q-card>
     <q-card flat bordered class="my-card">
@@ -335,7 +333,7 @@
           </div>
 
           <div class="col-auto">
-            <q-btn color="white" round flat icon="more_vert">
+            <q-btn color="white" round flat icon="more_vert" aria-label="submenu">
               <q-menu cover auto-close
                       transition-show="flip-right"
                       transition-hide="flip-left">
@@ -363,24 +361,24 @@
             <q-item-section>
               Marcos Valens Fraile
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Julien Gillet
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
 
           <q-item>
             <q-item-section>
               Joan Cabot
             </q-item-section>
-            <q-btn flat class="bg-primary text-white q-mx-sm">Validar</q-btn>
-            <q-btn flat class="bg-primary text-white">Cancelar</q-btn>
+            <q-btn flat class="bg-primary text-white q-mx-sm" aria-label="validar">Validar</q-btn>
+            <q-btn flat class="bg-primary text-white" aria-label="cancelar">Cancelar</q-btn>
           </q-item>
         </q-list>
       </q-card-section>
@@ -388,8 +386,8 @@
       <q-separator/>
 
       <q-card-actions class="flex justify-end">
-        <q-btn flat class="bg-primary text-white">Todos</q-btn>
-        <q-btn flat class="bg-primary text-white">Ninguno</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="todos">Todos</q-btn>
+        <q-btn flat class="bg-primary text-white" aria-label="ninguno">Ninguno</q-btn>
       </q-card-actions>
     </q-card>
   </q-page>

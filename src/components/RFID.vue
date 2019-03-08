@@ -1,6 +1,6 @@
 <template>
   <div padding>
-    <q-btn class="bg-primary text-white q-my-md">Escanear</q-btn>
+    <q-btn class="bg-primary text-white q-my-md" aria-label="escanear">Escanear</q-btn>
     <div>
       <q-list bordered separator>
         <q-item clickable v-ripple>
@@ -31,8 +31,8 @@
         </q-item>
       </q-list>
     </div>
-    <q-btn class="bg-primary text-white q-ma-md">Guardar</q-btn>
-    <q-btn class="bg-primary text-white q-ma-md">Borrar</q-btn>
+    <q-btn class="bg-primary text-white q-ma-md" aria-label="guardar">Guardar</q-btn>
+    <q-btn class="bg-primary text-white q-ma-md" aria-label="borrar">Borrar</q-btn>
   </div>
 </template>
 

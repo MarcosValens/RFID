@@ -8,7 +8,7 @@
         :filter="checkFileType"
       />
     <div>
-      <q-btn class="q-mx-md text-white bg-primary" @click="bajar">Bajar</q-btn>
+      <q-btn class="q-mx-md text-white bg-primary" @click="bajar" name="descargar">Descargar</q-btn>
     </div>
   </q-page>
 </template>

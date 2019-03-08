@@ -4,6 +4,7 @@
       <q-img
         src="https://cdn.quasar-framework.org/img/non-existent-image-src.png"
         style="height: 140px; max-width: 150px"
+        alt="foto de usuario"
       >
         <template v-slot:error>
           <div class="absolute-full flex flex-center bg-primary text-white">
@@ -39,7 +40,7 @@
       />
     </div>
     <div class="row">
-      <q-btn class="q-ma-sm col-12 text-white bg-primary" @click="card = true">Filtros</q-btn>
+      <q-btn class="q-ma-sm col-12 text-white bg-primary" @click="card = true" aria-label="filtros">Filtros</q-btn>
       <q-dialog v-model="card">
         <q-card>
 
@@ -54,8 +55,8 @@
           <q-separator/>
 
           <q-card-actions class="flex justify-center">
-            <q-btn flat color="white" class="bg-primary" v-close-dialog>Aceptar</q-btn>
-            <q-btn flat color="white" class="bg-primary" v-close-dialog>Cancelar</q-btn>
+            <q-btn flat color="white" class="bg-primary" aria-label="aceptar" v-close-dialog>Aceptar</q-btn>
+            <q-btn flat color="white" class="bg-primary" aria-label="cancelar" v-close-dialog>Cancelar</q-btn>
           </q-card-actions>
         </q-card>
       </q-dialog>
@@ -71,6 +72,7 @@
         value: 81,
         card: false,
         loading: null,
+        text: null,
         pagination: {
           page: 1,
           rowsPerPage: 7

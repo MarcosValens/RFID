@@ -3,14 +3,14 @@
     <q-header elevated class="flex no-wrap ">
       <img src="../assets/logoLiceuBlanco.svg" class="q-ml-xl" id="liceu" alt="logo Es Liceu">
       <q-toolbar class="justify-end">
-        <q-btn flat @click="drawer = !drawer" round dense icon="menu"/>
-        <q-btn flat round>
+        <q-btn flat @click="drawer = !drawer" round dense icon="menu" aria-label="menu"/>
+        <q-btn flat round aria-label="notificaciones">
           <q-avatar>
             <q-badge color="red" floating>{{numberNotifications}}</q-badge>
             <img src="../assets/notification_icon.svg" alt="Icon notification">
           </q-avatar>
         </q-btn>
-        <q-btn flat round>
+        <q-btn flat round aria-label="menu">
           <q-avatar>
             <img src="../assets/user_icon.svg" alt="Icon user">
           </q-avatar>

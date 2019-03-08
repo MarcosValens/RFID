@@ -14,7 +14,7 @@
             @click="isPwd = !isPwd"/>
         </template>
       </q-input>
-      <q-btn class="col q-mt-xl" color="primary" icon="person" @click="login" label="Entrar"></q-btn>
+      <q-btn class="col q-mt-xl" color="primary" icon="person" @click="login" label="Entrar" aria-label="entrar"></q-btn>
     </div>
   </q-page>
 </template>

@@ -15,7 +15,7 @@ const routes = [
       { path: '/validar', component: () => import('pages/Validar.vue') },
       { path: '/asignar', component: () => import('layouts/asignLayout.vue')},
       { path: '/upload', component: () => import('pages/Upload.vue') },
-      { path: '/generalUsuario', component: () => import('pages/GeneralUsuario.vue') },
+      { path: '/general/generalUsuario', component: () => import('pages/GeneralUsuario.vue') },
     ]
   },
 ]
